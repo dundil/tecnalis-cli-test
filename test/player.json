@@ -1,0 +1,11 @@
+{
+	"player": {
+		"id": -1,
+		"sessionID": 0,
+		"sessionInit": 0,
+		"alias": "",
+		"locale": "es-ES",
+		"balance": 0,
+		"groups": [12]
+	}
+}

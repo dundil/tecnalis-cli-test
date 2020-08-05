@@ -1,0 +1,241 @@
+[{
+	"url": "https://demo.tecnalis.com/register.html",
+	"bannerId": 1000090,
+	"locale": "es-ES",
+	"txt": {
+		"title": "Bienvenid@ a Casino Aliratec",
+		"description": "Descubre una nueva forma, emocionante y gratificante de diversión. ",
+		"button": "Regístrate",
+		"titlePosition": "TOP",
+		"textPosition": "LEFT"
+	},
+	"img": {
+		"bg": "https://demo.tecnalis.com/img/temporales/banner-temp1.jpg",
+		"icon": ""
+	},
+	"styles": {
+		"title": "font-size9",
+		"titleInline": "padding-top:0em;padding-right:0em;padding-bottom:0em;padding-left:0em;margin-top:0em;margin-right:0em;margin-bottom:0em;margin-left:0em;line-height:1.0;font-family:Arial;color:#FFF;background-color:rgba(255,255,255,0.0);letter-spacing:0px;text-decoration:none;text-shadow:2px 2px 3px #BCBCBC;text-align:left;font-weight:bold;font-style:normal",
+		"description": "font-size6",
+		"descriptionInline": "padding-top:0.3em;padding-right:0em;padding-bottom:0.3em;padding-left:0em;margin-top:0em;margin-right:0em;margin-bottom:0em;margin-left:0em;font-family:Arial;line-height:1.1;letter-spacing:0px;color:#FFF;background-color:rgba(255,255,255,0.0);text-decoration:none;text-shadow:0px 0px 0px transparent;text-align:left;font-weight:bold;font-style:normal",
+		"button": "font-size6",
+		"buttonInline": "border-top-left-radius:0.2em;border-top-right-radius:0.2em;border-bottom-right-radius:0.2em;border-bottom-left-radius:0.2em;float:none;padding-top:0.5em;padding-right:0.6em;padding-bottom:0.5em;padding-left:0.6em;margin-top:0.3em;margin-right:0em;margin-bottom:0em;margin-left:0em;font-family:Arial;line-height:1.0;text-decoration:none;letter-spacing:0px;text-align:left;font-weight:bold;font-style:normal;background-color:#e67e22;color:#FFF;text-shadow:0px 1px 2px rgba(0, 0, 0, 0.25);box-shadow:1px 1px 1px 0px #333;-webkit-box-shadow:1px 1px 1px 0 #333;border-bottom: 3px solid #C96C1B;border-top: 0px solid transparent;border-right: 0px solid transparent;border-left: 0px solid transparent",
+		"banner": "height:40;marginLeft:0;marginTop:0;marginRight:0;marginBottom:0"
+	},
+	"effects": {
+		"show": {
+			"title": {
+				"name": "elastic",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"description": {
+				"name": "zoomInRight",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"button": {
+				"name": "rotateInUpRight",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"bg": {
+				"name": "fadeIn",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"icon": {
+				"name": "fadeInDown",
+				"duration": 0.0,
+				"delay": 0.0
+			}
+		},
+		"hide": {
+			"title": {
+				"name": "fadeOut",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"description": {
+				"name": "fadeOut",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"button": {
+				"name": "fadeOut",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"bg": {
+				"name": "fadeOut",
+				"duration": 1.0,
+				"delay": 0.0
+			},
+			"icon": {
+				"name": "fadeOut",
+				"duration": 0.0,
+				"delay": 0.0
+			}
+		}
+	}
+}, {
+	"url": "https://demo.tecnalis.com/slot",
+	"bannerId": 1000091,
+	"locale": "es-ES",
+	"txt": {
+		"title": "Nuevas Slots",
+		"description": "Diviértete con nuestras nuevas máquina de slots.",
+		"button": "Ver todas las Máquinas",
+		"titlePosition": "TOP",
+		"textPosition": "LEFT"
+	},
+	"img": {
+		"bg": "https://demo.tecnalis.com/img/temporales/banner-temp2.jpg",
+		"icon": ""
+	},
+	"styles": {
+		"title": "font-size9",
+		"titleInline": "padding-top:0em;padding-right:0em;padding-bottom:0em;padding-left:0em;margin-top:0em;margin-right:0em;margin-bottom:0em;margin-left:0em;line-height:1.0;font-family:Arial;color:#FFF;background-color:rgba(255,255,255,0.0);letter-spacing:0px;text-decoration:none;text-shadow:2px 2px 3px #BCBCBC;text-align:left;font-weight:bold;font-style:normal",
+		"description": "font-size6",
+		"descriptionInline": "padding-top:0.3em;padding-right:0em;padding-bottom:0.3em;padding-left:0em;margin-top:0em;margin-right:0em;margin-bottom:0em;margin-left:0em;font-family:Arial;line-height:1.1;letter-spacing:0px;color:#FFF;background-color:rgba(255,255,255,0.0);text-decoration:none;text-shadow:0px 0px 0px transparent;text-align:left;font-weight:bold;font-style:normal",
+		"button": "font-size6",
+		"buttonInline": "border-top-left-radius:0.2em;border-top-right-radius:0.2em;border-bottom-right-radius:0.2em;border-bottom-left-radius:0.2em;float:none;padding-top:0.5em;padding-right:0.6em;padding-bottom:0.5em;padding-left:0.6em;margin-top:0.3em;margin-right:0em;margin-bottom:0em;margin-left:0em;font-family:Arial;line-height:1.0;text-decoration:none;letter-spacing:0px;text-align:left;font-weight:bold;font-style:normal;background-color:#e67e22;color:#FFF;text-shadow:0px 1px 2px rgba(0, 0, 0, 0.25);box-shadow:1px 1px 1px 0px #333;-webkit-box-shadow:1px 1px 1px 0 #333;border-bottom: 3px solid #C96C1B;border-top: 0px solid transparent;border-right: 0px solid transparent;border-left: 0px solid transparent",
+		"banner": "height:40;marginLeft:0;marginTop:0;marginRight:0;marginBottom:0"
+	},
+	"effects": {
+		"show": {
+			"title": {
+				"name": "elastic",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"description": {
+				"name": "zoomInRight",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"button": {
+				"name": "rotateInUpRight",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"bg": {
+				"name": "fadeIn",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"icon": {
+				"name": "fadeInDown",
+				"duration": 0.0,
+				"delay": 0.0
+			}
+		},
+		"hide": {
+			"title": {
+				"name": "fadeOut",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"description": {
+				"name": "fadeOut",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"button": {
+				"name": "fadeOut",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"bg": {
+				"name": "fadeOut",
+				"duration": 1.0,
+				"delay": 0.0
+			},
+			"icon": {
+				"name": "fadeOut",
+				"duration": 0.0,
+				"delay": 0.0
+			}
+		}
+	}
+}, {
+	"url": "https://demo.tecnalis.com/register.html",
+	"bannerId": 1000092,
+	"locale": "es-ES",
+	"txt": {
+		"title": "Apuestas en vivo",
+		"description": "Obtén tu bono de bienvenida registrándote ahora",
+		"button": "Registrarme ahora",
+		"titlePosition": "TOP",
+		"textPosition": "LEFT"
+	},
+	"img": {
+		"bg": "https://demo.tecnalis.com/img/temporales/banner-temp3.jpg",
+		"icon": ""
+	},
+	"styles": {
+		"title": "font-size9",
+		"titleInline": "padding-top:0em;padding-right:0em;padding-bottom:0em;padding-left:0em;margin-top:0em;margin-right:0em;margin-bottom:0em;margin-left:0em;line-height:1.0;font-family:Arial;color:#FFF;background-color:rgba(255,255,255,0.0);letter-spacing:0px;text-decoration:none;text-shadow:2px 2px 3px #BCBCBC;text-align:left;font-weight:bold;font-style:normal",
+		"description": "font-size6",
+		"descriptionInline": "padding-top:0.3em;padding-right:0em;padding-bottom:0.3em;padding-left:0em;margin-top:0em;margin-right:0em;margin-bottom:0em;margin-left:0em;font-family:Arial;line-height:1.1;letter-spacing:0px;color:#FFF;background-color:rgba(255,255,255,0.0);text-decoration:none;text-shadow:0px 0px 0px transparent;text-align:left;font-weight:bold;font-style:normal",
+		"button": "font-size6",
+		"buttonInline": "border-top-left-radius:0.2em;border-top-right-radius:0.2em;border-bottom-right-radius:0.2em;border-bottom-left-radius:0.2em;float:none;padding-top:0.5em;padding-right:0.6em;padding-bottom:0.5em;padding-left:0.6em;margin-top:0.3em;margin-right:0em;margin-bottom:0em;margin-left:0em;font-family:Arial;line-height:1.0;text-decoration:none;letter-spacing:0px;text-align:left;font-weight:bold;font-style:normal;background-color:#e67e22;color:#FFF;text-shadow:0px 1px 2px rgba(0, 0, 0, 0.25);box-shadow:1px 1px 1px 0px #333;-webkit-box-shadow:1px 1px 1px 0 #333;border-bottom: 3px solid #C96C1B;border-top: 0px solid transparent;border-right: 0px solid transparent;border-left: 0px solid transparent",
+		"banner": "height:40;marginLeft:0;marginTop:0;marginRight:0;marginBottom:0"
+	},
+	"effects": {
+		"show": {
+			"title": {
+				"name": "elastic",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"description": {
+				"name": "zoomInRight",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"button": {
+				"name": "rotateInUpRight",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"bg": {
+				"name": "fadeIn",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"icon": {
+				"name": "fadeInDown",
+				"duration": 0.0,
+				"delay": 0.0
+			}
+		},
+		"hide": {
+			"title": {
+				"name": "fadeOut",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"description": {
+				"name": "fadeOut",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"button": {
+				"name": "fadeOut",
+				"duration": 0.0,
+				"delay": 0.0
+			},
+			"bg": {
+				"name": "fadeOut",
+				"duration": 1.0,
+				"delay": 0.0
+			},
+			"icon": {
+				"name": "fadeOut",
+				"duration": 0.0,
+				"delay": 0.0
+			}
+		}
+	}
+}]

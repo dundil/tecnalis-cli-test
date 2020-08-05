@@ -1,0 +1,76 @@
+<!-- INIT Layout body.vm -->
+<!-- INIT Module 703 -->
+        <style type="text/css">
+            #bannerContainer {
+				width: 100%;
+			}
+			
+			.comTecnalisBanner {
+			    height:100%;
+			    width:100%;
+                margin:0 auto;
+               
+            }
+        </style>
+        <script type="text/javascript">
+            var virtualPath = "/banners";
+			var servletVirtualPath = "/banners";
+            var analyticsPath = "/servlet/banner-stats";
+            var bannersListPath = "/servlet/banner-list";
+            var extraBannersInfo = {partnerId: '$thePage.getPartner()',siteId: '$thePage.getSite()',  roomId: '0', roomName: 'classic', pageId: '703', pageUrl: '$pageURI', groups: '$player.getGroupsStr()', moduleId: '703', type: 'html', locale: '$locale', currency: '$playerCurrency'};
+            var pagerControl = {
+                showControl: true, //Oculta/mustra el paginador
+                useNums: false, //Muestra n?mero o solo c?rculo
+                showBullets: true, //Muestra o no los bullets
+                showPauseBt: false, //Muestra o no bot?n pausa
+                style: "bannerPagerEditor"
+            };
+            var layouts = [
+				{name: "layoutBase", width: 1872, heigth: 640, used: ['BannerAffiliatePageLandscape']},
+                {name: "layout1", width: 1510, heigth: 310, used: ['BannerInternalPage']},
+                {name: "layout2", width: 1920, heigth: 500, used: ['bingoRoomMax', 'BannerHomePageLandscape']},
+                {name: "layout3", width: 1600, heigth: 456, used: ['bingoRoomMin']},
+                {name: "layout4", width: 1872, heigth: 1040, used: ['BannerAffiliatePagePortrait']},
+				{name: "layout5", width: 1536, heigth: 960, used: ['BannerHomePagePortrait']}
+				]
+            var homeSlider, leaderBoard, bingoRoomMax, bingoRoomMin;
+            var uA;
+            $(document).ready(function () {
+                console.log("pageId="+pageId+" thePage="+703);
+				if (pageId>0){
+					launchBanners(pageId);
+				} else {
+					launchBanners(703);
+				}
+			 });
+            function launchBanners(pageId){
+                console.log("launchBanners "+pageId);
+                extraBannersInfo.pageId=pageId;
+                ComTecnalisWebCommon.initLib();//Librer?a para simular OOP en Javascript
+                ComTecnalisWebCommon.Utils.BrowserUtils.savePrefix();//Guarda el prefijo del navegador para a?adir/modificar animacions css con javascript
+                ComTecnalisWebCommon.BasicComponents.initLib();//Inicia la librer?a de componentes en la que esta la clase BasicBannerContainer
+                /*Par?metros:
+                 @_divS. Selector jquery con el div al que se quiere a?adir el slider
+                 @_duration. Tiempo (en milisegundos) que se muestra cada diapositiva 
+                 @_currentLayoutName. El tipo de layout (ratio). Actualmente definidos: homePage (Home Page), leaderBoard (Paginas interiores), bingoRoomMax (Sala bingo maximizado), bingoRoomMin (Sala de bingo con chat maximizado)
+                 @_typeClick. El tipo de evento: click o touchStart seg?n el dispositivo en el que se est? mostrando la p?gina. 
+                 @_virtualPath. Dominio desde el que se est? llamando al componente para concatenarlo con los path de los distintos servlets
+				 @_servletVirtualPath. Dominio desde el que se est? llamando el servlet
+                 @_getBannersListPath. Servlet para obtener el listado de banners
+                 @_extraBannersInfo. Informaci?n extra necesaria sobre los banners para poder enviar informaci?n a analytics y solicitar el listado de banners
+                 @_pagerControl. Datos del paginador (si sa va a usar o no, si se usaran n?meros o bullets, si se mostrar? el bot?n play/pausa y el estilo)
+                 @_layouts. Listado de layouts (ratios) posibles para que la altura cambi?n en el evento resize en funci?n del ratio
+                 @_analyticsPath. Servlet para guardar los clicks y visualizaciones de un banner determinado en analytics
+                 @_numSlider. N?mero de diapositiva en la que empezar el carrusel
+                 */
+				 
+                homeSlider = new ComTecnalisWebCommon.BasicComponents.BasicBannerContainer($('#homePageIdCualquiera-tecnalis-web'), 10000, "layout2", 'click', virtualPath, servletVirtualPath, bannersListPath, extraBannersInfo,pagerControl,layouts, analyticsPath, 0);
+
+            }			
+        </script>
+        <div id="bannerContainer">
+				<div id="homePageIdCualquiera-tecnalis-web"></div>
+        </div>
+<!-- END Module 703 -->
+
+<!-- END Layout body.vm -->
