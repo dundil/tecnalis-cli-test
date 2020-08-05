@@ -1,7 +1,8 @@
 {
 	"name": "alira-tools",
 	"version": "0.0.1",
-	"description": "Alira CLI",
+	"description": "CLI to manage Alira's CMS from external editor.",
+	"keywords": ["alira"],
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +11,10 @@
 	"license": "ISC",
 	"bin": {
 		"alira": "./index.js"
+	},
+	"engines": {"node": ">=12.0.0" },
+	"repository": {
+		"type" : "git",
+		"url" : "https://github.com/dundil/tecnalis-cli-test"
 	}
 }
